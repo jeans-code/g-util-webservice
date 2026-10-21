@@ -28,7 +28,7 @@ function generateHeaders(headers: Record<string, string> | undefined): Record<st
 }
 
 function getDefaultResponse(): Response {
-  return new Response("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890", { status: 200, headers: generateHeaders({ "Content-Type": "text/plain" }));
+  return new Response("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890", { status: 200, headers: generateHeaders({ "Content-Type": "text/plain" }) });
 }
 
 export default async (req: Request, ctx: Context) => {
