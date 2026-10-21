@@ -1,0 +1,17 @@
+{
+  "name": "HTTP_Request_API",
+  "version": "1.0.0",
+  "description": "A lot like HttpBin.",
+  "main": "netlify/functions/index.ts",
+  "type": "module",
+  "moduleResolution": "node16",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "echo 'No build required.'"
+  },
+  "dependencies": {
+    "@types/node": "~22.20.2",
+    "axios": "~1.20.0",
+    "@netlify/functions": "*"
+  }
+}
